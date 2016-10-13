@@ -1,0 +1,23 @@
+{
+    "name": "UserOrder",
+    "base": "PersistedModel",
+    "strict": true,
+    "idInjection": false,
+    "properties": {
+        "id": {
+            "type": "string",
+            "required": true,
+            "id": true,
+            "index": true,
+            "description": "id"
+        },
+        "name": {
+            "type": "string",
+            "required": false,
+            "description": "name"
+        }
+	},
+	"validations": [],
+    "relations": {},
+    "acls": []
+}	
